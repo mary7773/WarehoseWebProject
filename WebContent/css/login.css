@@ -1,0 +1,55 @@
+@CHARSET "UTF-8";
+
+.gradient{
+	font: "Lucida Grande", Arial, sans-serif;
+	font-style: bold;
+	font-size: 600 px;
+	position: relative;
+	margin: 5%;
+	color: olive;
+	text-transform: uppercase;
+	letter-spacing: 10 px;
+	text-align:center;
+}
+html{
+	background: #EEEEEE;
+}
+
+form{
+	
+	display: block;
+	padding-left: 40%;
+	position:absolute;
+	
+}
+
+a
+{
+	color: olive;
+}
+
+input{
+	border: 1px solid white;
+	height: 35px;
+	background: gray;
+	text-align: center;
+	padding: 2%;
+	margin: 2%;
+}
+
+.gradient {
+	
+	padding: 10px 0 10px 10px;
+	margin: 15px 0 25px;
+}
+
+.btn {
+	border: 2px solid silver;
+	text-align: center;
+	background: gray;
+	margin: 20px;
+	padding: 10px;
+	color: silver;
+	font-size: 20px;
+	vertical-align: middle;
+}

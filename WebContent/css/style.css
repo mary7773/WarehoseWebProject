@@ -1,0 +1,143 @@
+@CHARSET "ISO-8859-1";
+
+.gradient h1 {
+	font: "Lucida Grande", Arial, sans-serif;
+	font-style: bold;
+	font-size: 600 px;
+	position: relative;
+	margin: 20%;
+	color: olive;
+	text-transform: uppercase;
+	letter-spacing: 10 px;
+	text-align:center;
+}
+
+
+img
+{
+	display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+}
+
+html,body {
+	min-width: 50%;
+}
+
+a
+{
+	color: olive;
+}
+
+.gradient {
+	background: #EEEEEE;
+	padding: 10px 0 10px 10px;
+	margin: 15px 0 25px;
+}
+
+.create
+{
+background-image: url('images/login.png');
+background-repeat: no-repeat;
+padding-right: 10px;  /* width of the image plus a little extra padding */
+display: block;  /* may not need this, but I've found I do */
+}
+
+a:link {text-decoration:none;}    /* unvisited link */
+a:visited {text-decoration:none;} /* visited link */
+a:hover {text-decoration:underline;}   /* mouse over link */
+a:active {text-decoration:underline;}  /* selected link */
+
+root {
+    display: block;
+}
+
+
+body {
+	background: #EEEEEE;
+	font-family: Arial, Helvetica;
+	font-size: medium;
+	color: silver;
+	letter-spacing: 1px;
+}
+
+th {
+	font-family: serif, Arial, Helvetica;
+	height: 100px;
+	width: 100%;
+	font-size: large;
+	color: gray;
+	background-color: silver;
+}
+
+th,table {
+	border: 5px groove silver;
+	border-collapse: collapse;
+	table-layout: fixed;
+    width: 200px;
+}
+
+td {
+	border: 1px solid silver;
+	height: 25px;
+	font-size: small;
+	text-align: center;
+	padding: 0 px;
+	margin: 0 px;
+	color: white;
+}
+
+tr
+{
+	colspan =2;
+
+}
+
+.button
+{
+	background: no-repeat;
+    cursor:pointer;
+    border:none;
+    vertical-align: middle;
+}
+.button:hover::before
+{
+	position: relative;
+    top: 60px;
+    left: 50px;
+    width: 30px;
+    height: 20px;
+    text-align: center;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input {
+	border: 1px solid white;
+	height: 35px;
+	background: gray;
+	text-align: center;
+	padding: 5 px;
+	color: white;
+
+}
+
+.btn {
+	border: 2px solid silver;
+	text-align: center;
+	background: gray;
+	margin: 20px;
+	padding: 10px;
+	color: silver;
+	font-size: 20px;
+	vertical-align: middle;
+}
+
+
+.login {
+	display:block;
+	margin-left: 20%;
+	padding-left: 20%;
+	widows: 100%;
+}
